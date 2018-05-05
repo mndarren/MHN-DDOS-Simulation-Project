@@ -72,6 +72,7 @@
 	4) Run the only command to commpletely install and configure Conpot on Ubuntu.
 	5) After done installation, check it from MHN browser UI Sensors tag.
 	```
+	![alt Setup_honeys](https://github.com/mndarren/MHN-DDOS-Simulation-Project/tree/master/resources/setup_2_honey.PNG)
 8. How to simulate DDOS to Honeypot network
 	```
 	1)	open browser to watch GUI of MHN;
@@ -79,8 +80,10 @@
 	3)	start LOIC attack from Kali;
 	4)	detect DDOS attacks from MHN GUI.
 	```
-
-
+	![alt Simulating]https://github.com/mndarren/MHN-DDOS-Simulation-Project/tree/master/resources/ddos_simulating.PNG)
+	![alt Catch_Win10](https://github.com/mndarren/MHN-DDOS-Simulation-Project/tree/master/resources/catch_win10_ip.PNG)
+	![alt Win10_IP](https://github.com/mndarren/MHN-DDOS-Simulation-Project/tree/master/resources/win10_ip.PNG)
+	![alt MHN_summary](https://github.com/mndarren/MHN-DDOS-Simulation-Project/tree/master/resources/MHN_summary_attck.PNG)
 9. Two wired things
 	```
 	1) From Kali, we found 2 different IP addresses at the same time during DDOS attack.
@@ -88,6 +91,8 @@
 	2) After stopping DDOS attack (close LOIC and HOIC), MHN still can detect DDOS attack keep going.
 	   Why? Cache? Queue?
 	```
+	![alt Catch_Kali](https://github.com/mndarren/MHN-DDOS-Simulation-Project/tree/master/resources/catch_kali_attack.PNG)
+	![alt Kali_IP](https://github.com/mndarren/MHN-DDOS-Simulation-Project/tree/master/resources/Kali_ip.PNG)
 10.  Evaluation and future work
 	```
 	1)	The whole experiment was completed successfully. We created five virtual machines,
