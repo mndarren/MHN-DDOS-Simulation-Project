@@ -72,7 +72,7 @@
 	4) Run the only command to commpletely install and configure Conpot on Ubuntu.
 	5) After done installation, check it from MHN browser UI Sensors tag.
 	```
-	![alt Setup honeys](https://github.com/mndarren/MHN-DDOS-Simulation-Project/tree/master/resources/setup_2_honey.PNG)
+	![alt SetupHoneys](https://github.com/mndarren/MHN-DDOS-Simulation-Project/tree/master/resources/setup_2_honey.PNG)
 8. How to simulate DDOS to Honeypot network
 	```
 	1)	open browser to watch GUI of MHN;
