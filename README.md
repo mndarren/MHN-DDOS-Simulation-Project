@@ -80,7 +80,7 @@
 	3)	start LOIC attack from Kali;
 	4)	detect DDOS attacks from MHN GUI.
 	```
-	![alt Simulating]https://github.com/mndarren/MHN-DDOS-Simulation-Project/tree/master/resources/ddos_simulating.PNG)
+	![alt Simulating](https://github.com/mndarren/MHN-DDOS-Simulation-Project/tree/master/resources/ddos_simulating.PNG)
 	![alt Catch_Win10](https://github.com/mndarren/MHN-DDOS-Simulation-Project/tree/master/resources/catch_win10_ip.PNG)
 	![alt Win10_IP](https://github.com/mndarren/MHN-DDOS-Simulation-Project/tree/master/resources/win10_ip.PNG)
 	![alt MHN_summary](https://github.com/mndarren/MHN-DDOS-Simulation-Project/tree/master/resources/MHN_summary_attck.PNG)
