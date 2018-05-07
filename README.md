@@ -78,30 +78,28 @@ How to install Hoenypot
 3) From Deploy tag, choose Conpot and then deploy script command showsup.
 4) Run the only command to commpletely install and configure Conpot onUbuntu.
 5) After done installation, check it from MHN browser UI Sensors tag.<br/>
-![HoneypotInstall](https://github.com/mndarrenMHN-DDOS-Simulation-Project/tree/master/resources/setup_2_honey.PNG)
+![setup_2_honey](https://user-images.githubusercontent.com/17918808/39680691-2eed0fa8-5169-11e8-86e2-6f5d2297b082.png)
 
 How to simulate DDOS to Honeypot network
 ------------------------------------------
-	```
-	1) open browser to watch GUI of MHN;
-	2) start HOIC attack from Win10;
-	3) start LOIC attack from Kali;
-	4) detect DDOS attacks from MHN GUI.
-	```
-	![alt Simulating](https://github.com/mndarren/MHN-DDOS-Simulation-Project/tree/master/resources/ddos_simulating.PNG)
-	![alt Catch_Win10](https://github.com/mndarren/MHN-DDOS-Simulation-Project/tree/master/resources/catch_win10_ip.PNG)
-	![alt Win10_IP](https://github.com/mndarren/MHN-DDOS-Simulation-Project/tree/master/resources/win10_ip.PNG)
-	![alt MHN_summary](https://github.com/mndarren/MHN-DDOS-Simulation-Project/tree/master/resources/MHN_summary_attck.PNG)
+1) open browser to watch GUI of MHN;
+2) start HOIC attack from Win10;
+3) start LOIC attack from Kali;
+4) detect DDOS attacks from MHN GUI.<br/>
+![ddos_simulating](https://user-images.githubusercontent.com/17918808/39680703-560cb520-5169-11e8-943a-c0332e80bcf5.png)
+![catch_win10_ip](https://user-images.githubusercontent.com/17918808/39680712-6e38f3ac-5169-11e8-93d3-ebc22c1a92b6.png)
+![win10_ip](https://user-images.githubusercontent.com/17918808/39680714-71f8703a-5169-11e8-9347-2542d9694fe1.png)
+![mhn_summary_attack](https://user-images.githubusercontent.com/17918808/39680724-85fae1c6-5169-11e8-9246-5a25443288b8.png)
+
 Two wired things
 -------------------
-	```
-	1) From Kali, we found 2 different IP addresses at the same time during DDOS attack.
-	   Why can a VM contains 2 different IP addresses with only one network card?
-	2) After stopping DDOS attack (close LOIC and HOIC), MHN still can detect DDOS attack keep going.
-	   Why? Cache? Queue?
-	```
-	![alt Catch_Kali](https://github.com/mndarren/MHN-DDOS-Simulation-Project/tree/master/resources/catch_kali_attack.PNG)
-	![alt Kali_IP](https://github.com/mndarren/MHN-DDOS-Simulation-Project/tree/master/resources/Kali_ip.PNG)
+1) From Kali, we found 2 different IP addresses at the same time duringDDOS attack.
+   Why can a VM contains 2 different IP addresses with only one networkcard?
+2) After stopping DDOS attack (close LOIC and HOIC), MHN still candetect DDOS attack keep going.
+   Why? Cache? Queue?<br/>
+![catch_kali_attack](https://user-images.githubusercontent.com/17918808/39680733-a4b1ea42-5169-11e8-9d6a-8dea86f3278a.png)
+![kali_ip](https://user-images.githubusercontent.com/17918808/39680735-a7cf3ebe-5169-11e8-95c9-7e50d68c7129.png)
+
 Evaluation and future work
 ---------------------------
 	```
