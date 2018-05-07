@@ -1,17 +1,20 @@
-# MHN-DDOS-Simulation-Project
+MHN DDOS Simulation Project
 =====================================================
-1. Purpose of MHN project
+Purpose
+---------
 	```
 	1) Practice MHN to confirm its 2 big benefits(deploy honeypots fast and 
 	automatedly collect and summarize honeypot info).
 	2) Simulate DDOS attack pattern.
 	```
-2. Architecture
+Architecture
+-------------
 	```
 	Locally perform the experiment via 5 VMs
 	```
 	![alt Arthitecture](https://github.com/mndarren/MHN-DDOS-Simulation-Project/blob/master/resources/MHN_architecture.png)
-3. How to deploy architecture planning
+How to deploy architecture planning
+------------------------------------
 	```
 	1) Install VMware Workstation 12 on Windows 10;
 	2) Create 2 VMs and install VMware ESXi 6 and Kali 4.14 respectively
@@ -37,7 +40,8 @@
 	   and related dependencies.
 	9) Install HOIC on Windows 10
 	```
-4. How to install LOIC in Kali (this is the hard part)
+How to install LOIC in Kali (this is the hard part)
+----------------------------------------------------
 	```
 	1) setup repository for Kali 
 	   sudo nano /etc/apt/source-list
@@ -49,7 +53,8 @@
 	5) Open LOIC 
 	   mono LOIC.exe
 	```
-5. How to install MHN on Ubuntu
+How to install MHN on Ubuntu
+-----------------------------
 	```
 	1) Install git
 	   sudo apt-get install git -y
@@ -61,22 +66,23 @@
 	   sudo ./install.sh
 	Note: install all dependencies if required.
 	```
-6. How to reset hostname on Ubuntu
+How to reset hostname on Ubuntu
+---------------------------------
 	```
 	1) reset /etc/hostname
 	2) reset /etc/hosts
 	3) reboot
 	```
-7. How to install Hoenypot
-	```
-	1) Run MHN firstly;
-	2) Open browser with MHN VM IP
-	3) From Deploy tag, choose Conpot and then deploy script command shows up.
-	4) Run the only command to commpletely install and configure Conpot on Ubuntu.
-	5) After done installation, check it from MHN browser UI Sensors tag.
-	```
-	![HoneypotInstall](https://github.com/mndarren/MHN-DDOS-Simulation-Project/tree/master/resources/setup_2_honey.PNG)
-8. How to simulate DDOS to Honeypot network
+How to install Hoenypot
+------------------------
+1) Run MHN firstly;
+2) Open browser with MHN VM IP
+3) From Deploy tag, choose Conpot and then deploy script command showsup.
+4) Run the only command to commpletely install and configure Conpot onUbuntu.
+5) After done installation, check it from MHN browser UI Sensors tag.<br/>
+![HoneypotInstall](https://github.com/mndarrenMHN-DDOS-Simulation-Project/tree/master/resources/setup_2_honey.PNG)
+How to simulate DDOS to Honeypot network
+------------------------------------------
 	```
 	1) open browser to watch GUI of MHN;
 	2) start HOIC attack from Win10;
@@ -87,7 +93,8 @@
 	![alt Catch_Win10](https://github.com/mndarren/MHN-DDOS-Simulation-Project/tree/master/resources/catch_win10_ip.PNG)
 	![alt Win10_IP](https://github.com/mndarren/MHN-DDOS-Simulation-Project/tree/master/resources/win10_ip.PNG)
 	![alt MHN_summary](https://github.com/mndarren/MHN-DDOS-Simulation-Project/tree/master/resources/MHN_summary_attck.PNG)
-9. Two wired things
+Two wired things
+-------------------
 	```
 	1) From Kali, we found 2 different IP addresses at the same time during DDOS attack.
 	   Why can a VM contains 2 different IP addresses with only one network card?
@@ -96,7 +103,8 @@
 	```
 	![alt Catch_Kali](https://github.com/mndarren/MHN-DDOS-Simulation-Project/tree/master/resources/catch_kali_attack.PNG)
 	![alt Kali_IP](https://github.com/mndarren/MHN-DDOS-Simulation-Project/tree/master/resources/Kali_ip.PNG)
-10.  Evaluation and future work
+Evaluation and future work
+---------------------------
 	```
 	1)	The whole experiment was completed successfully. We created five virtual machines,
 		including two honeypot sensors -- using Conpot version, one attacker machine – Kali.
