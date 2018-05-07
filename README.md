@@ -2,17 +2,15 @@ MHN DDOS Simulation Project
 =====================================================
 Purpose
 ---------
-	```
-	1) Practice MHN to confirm its 2 big benefits(deploy honeypots fast and 
-	automatedly collect and summarize honeypot info).
-	2) Simulate DDOS attack pattern.
-	```
+1) Practice MHN to confirm its 2 big benefits(deploy honeypots fast and 
+automatedly collect and summarize honeypot info).
+2) Simulate DDOS attack pattern.
+
 Architecture
 -------------
-	```
-	Locally perform the experiment via 5 VMs
-	```
-	![alt Arthitecture](https://github.com/mndarren/MHN-DDOS-Simulation-Project/blob/master/resources/MHN_architecture.png)
+Locally perform the experiment via 5 VMs<br/>
+![alt Arthitecture](https://github.com/mndarrenMHN-DDOS-Simulation-Project/blob/master/resources/MHN_architecture.png)
+
 How to deploy architecture planning
 ------------------------------------
 	```
