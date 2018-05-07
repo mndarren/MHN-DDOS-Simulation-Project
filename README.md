@@ -21,10 +21,11 @@
 	   The vSphere Client is used to control ESXi. The following snapshots will
 	   show how to use it to create VMs in the sandbox;
 	4) Create 3 VMs in sandbox and install Ubuntu 16 for each via vSphere Client
-	   Tip 1, After finishing installing Ubuntu for the first VM, create a   template (.ova) file.
-	   The (.ova) file can be used to create another VMs very easy and  very   fast.
-	   Tip 2, After installing packages or modifying configuration, take a   snapshot for the VM.
-	   If some operation accidentally results in something wrong in VM, it   can easily restore the snapshot state.
+	   Tip 1, After finishing installing Ubuntu for the first VM, create a template (.ova) file.
+	   The (.ova) file can be used to create another VMs very easy and  very fast.
+	   Tip 2, After installing packages or modifying configuration, take a snapshot for the VM.
+	   If some operation accidentally results in something wrong in VM, it can easily restore
+	   the snapshot state.
 	5) Install MHN on 1 VM. The detail will be found at how to install MHN.
 	6) Install Conpot on another 2 VM
 	   This step is the easiest one, just one command run.
@@ -32,8 +33,9 @@
 	   The purpose for this step is to show clearly output. The detail is at How to change hostname.
 	8) Install LOIC on Kali
 	   This is the hard one. We have to use Kali because Linux will consume less resource than Windows.
-	   In order to run LOIC.exe (Windows application), we 	have to install a lot of packages and related dependencies.
-	9)	Install HOIC on Windows 10
+	   In order to run LOIC.exe (Windows application), we have to install a lot of packages
+	   and related dependencies.
+	9) Install HOIC on Windows 10
 	```
 4. How to install LOIC in Kali (this is the hard part)
 	```
@@ -44,7 +46,8 @@
 	2) Update and upgrade Kali
 	3) Install mono package and related packages
 	4) Download LOIC.exe (https://sourceforge.net/projects/loic/)
-	5) Open LOIC (mono LOIC.exe)
+	5) Open LOIC 
+	   mono LOIC.exe
 	```
 5. How to install MHN on Ubuntu
 	```
