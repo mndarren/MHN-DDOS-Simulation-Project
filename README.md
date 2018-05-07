@@ -9,7 +9,7 @@ automatedly collect and summarize honeypot info).
 Architecture
 -------------
 Locally perform the experiment via 5 VMs<br/>
-![alt Arthitecture](https://github.com/mndarrenMHN-DDOS-Simulation-Project/blob/master/resources/MHN_architecture.png)
+![mhn_architecture](https://user-images.githubusercontent.com/17918808/39680627-6451c626-5168-11e8-8f44-2afc4f7d66c5.png)
 
 How to deploy architecture planning
 ------------------------------------
